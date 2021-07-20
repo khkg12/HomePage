@@ -16,7 +16,7 @@
 ##### todo.js
 * 유저가 입력값을 submit하면 localStorage에 todo값을 저장. localStorage값 유무에 따라 li 화면에 띄움. 
 ##### weather.js
-* weather API와 navigator.geolocation함수를 통해 현재 나의  위치에 대한 정보를 얻고 화면에 띄움.
+* weather API와 navigator.geolocation함수를 통해 현재 나의 위치에 대한 정보를 얻고 화면에 띄움.
 *******
 
 
