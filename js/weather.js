@@ -13,8 +13,8 @@ function onGeoOk(position) {
       ).nextElementSibling; // = document.querySelector("#weather span:last-child");
       const icon = document.querySelector(".icon");
       const weatherIcon = data.weather[0].icon; // 아래링크로 이모티콘을 가져오기 위한 json 내 icon 코드 가져오기
-      weather.innerText = `WEATHER : ${data.weather[0].main} / TEMP : ${data.main.temp}°C`;
-      city.innerText = `/ LOCATION : ${data.name}`;
+      weather.innerText = `${data.weather[0].main} / ${data.main.temp}°C`;
+      city.innerText = `${data.name}`;
       icon.setAttribute(
         "src",
         `http://openweathermap.org/img/wn/${weatherIcon}@2x.png`
